@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'shabnam';
+    src: url('SHABNAM.TTF');
+}
+
+html,
+body {
+    direction: rtl;
+    font-family: shabnam;
+}
+
+h1 {
+  @apply text-2xl mb-2 mt-6;
+}
+
+h2 {
+  @apply text-xl mb-6;
+}
+
+
+pre {
+  @apply bg-gray-200 p-5 my-4 font-bold;
+  direction: ltr;
+}
+
+p {
+    @apply leading-7 mb-4;
+}
